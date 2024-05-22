@@ -102,7 +102,7 @@ systemctl enable kubelet.service
 # the join token depends on the the master node generated token.if lose token,
 #use this command: kubeadm token create --print-join-command
 
-kubeadm join 172.31.57.154:6443 --token 5bz511.6dx8cn9zt3rjgbwe --discovery-token-ca-cert-hash sha256:fe1ac8fe76ed1f664bd83753cc13e5b1aa98306d007a5cf1159c8f2ba043d51a
 
+kubeadm join 172.31.57.154:6443 --token 67uwg5.p2s49fzrw79iio90         --discovery-token-ca-cert-hash sha256:fe1ac8fe76ed1f664bd83753cc13e5b1aa98306d007a5cf1159c8f2ba043d51 --v=5
 
 #{End for Worker}
